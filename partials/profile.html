@@ -1,0 +1,22 @@
+<!-- This is the profile page partial. Add HTML here. -->
+
+<div class="profile-container">
+  <h4 id='profHead'>profile</h4>
+  <h5>Welcome, {{userDetails.name}}</h5>
+  <div class="wrap">
+    <div class="floatL">
+      <img class="profile-img" src="{{userDetails.img}}" alt="">
+    </div>
+    <div class="floatR">
+      <p>Email: {{userDetails.email}}</p>
+      <p>Phone Number: {{userDetails.phone}}</p>
+      <p>Location: {{userDetails.location}}</p>
+    </div>
+  </div>
+
+  <div class="editP">
+    <a href="#">Edit Profile</a>
+  </div>
+
+
+</div>

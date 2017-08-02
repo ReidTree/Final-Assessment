@@ -1,0 +1,76 @@
+/* Styles go here */
+body {
+  font-family: 'Open Sans';
+  background-color: #63CEC2;
+  width: 100%;
+  color: #F7F8F9;
+}
+.form-container {
+  background-color: rgba(67, 75, 89, 0.7);
+  width: 40%;
+  padding: 2% 6% 1% 6%;
+  margin: 10% auto;
+  text-align: center;
+}
+.profile-container {
+  background-color: rgba(67, 75, 89, 0.7);
+  width: 50%;
+  padding: 2% 3% 1% 3%;
+  margin: 10% auto;
+  text-align: center;
+}
+button, input {
+  border: 0;
+  padding: 2%;
+  border-radius: 40px;
+  display: block;
+
+}
+img {
+  width: 100%;
+}
+
+.floatR{
+  float: right;
+  display: inline-block;
+  width: 35%;
+  clear: both;
+}
+
+.floatL{
+  float: left;
+  display: inline-block;
+  width: 35%;
+  clear: both;
+}
+input {
+  background-color: #F7F8F9;
+  margin: 5% 0;
+  width: 96%;
+}
+#profHead, #signHead {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: lighter;
+}
+button {
+  background-color: #CCC;
+  color: #F7F8F9;
+  margin: 5% 0 15% 0;
+  width: 100%;
+
+}
+
+.form-container, .profile-img, .profile-container {
+  border-radius: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #F7F8F9;
+}
+
+a:hover, button:hover {
+  color: #63CEC2;
+}
